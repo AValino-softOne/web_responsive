@@ -1,0 +1,225 @@
+/* Me quito de rollos con el reasjuste cajas */
+*{
+    box-sizing: border-box;
+
+}
+
+/* Fuente inicial con la que luego hare el rezicing */
+
+
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4px;
+  margin: 0 auto;
+  background-color: black;
+  text-align: center;
+
+}
+
+.top_page {
+
+  text-align: center;
+  width:100%;
+  margin: 0 auto;
+
+
+}
+
+nav {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    position:relative;
+  text-align:center;
+    
+}
+
+
+nav a {
+    border: none;
+    font-size:  6rem;
+    background-color:none;
+    text-decoration: none;
+    color: white;
+    font-display: center;
+    margin-left:6%;
+    margin-left:6%;
+    background-color: rgb(rgb(148, 42, 42), green, blue);
+    
+
+}
+
+a:hover{
+
+  color:purple;
+}
+
+
+.title-top img {
+
+    max-width: 100%;
+    max-height: 70%;
+    overflow: hidden;
+
+  }
+
+  
+.title-top  {
+    margin:0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position:relative;
+    top:4%
+   
+  }
+
+
+.title {
+    color: white;
+     width: 100% ;
+     margin: 0 auto;
+     font-size: 5rem;
+     position: absolute;
+     top: 10%;
+     text-align: center;
+     font-weight: bold;
+
+}
+
+
+.content¨{
+
+color: white;
+
+}
+
+
+.content h1{
+
+  font-size: 5rem;
+  color: white;
+  font-style: oblique;
+  
+
+}
+
+.content p, h3{
+
+  font-size: 7rem;
+  color: white;
+  font-style: oblique;
+  
+
+}
+
+#story{
+
+border: purple solid;
+
+
+}
+
+
+.images{
+
+width: 100%;
+margin: auto;
+
+}
+
+
+.images img{
+  display: inline-block;
+  width: 40%;
+  margin: 1.5%;
+
+}
+
+
+
+.join{
+  width: 100%;
+  text-align: center; 
+  color: white;
+  font-size: 10rem;
+  margin-top: 2%;
+
+}
+
+input{
+font-size: 5rem;
+  width: 20%;
+  height: auto;
+}
+
+
+
+label{
+  font-size: 10rem;
+    width: 50%;
+    height: auto;
+  }
+
+
+#sub-but{
+
+    width: 10%;
+    padding: 0%;
+    
+  }
+
+  
+  @media only screen and (max-width: 480px) {
+
+
+    nav {
+      width: 30%;
+      margin-top: 3rem;    
+     }
+
+       nav a {
+        margin-bottom: 3rem;    
+        text-align: center;
+          }
+          
+
+       .title {
+        position: relative;
+                }
+
+       .images img{
+        display: block;
+        width: 60%;
+        margin:10% auto;
+        border: solid gray
+         }
+
+
+   
+    }
+    @media only screen and (min-width:600px) and (max-width:1200px) {
+
+  
+
+         nav {
+          float: left;
+          text-align: left;
+            }
+
+
+            nav a {
+              margin-bottom: 3rem;    
+              text-align: center;
+              margin-left:3%;
+             margin-left:3%;
+                }
+                
+
+  
+            
+        
+
+       }
